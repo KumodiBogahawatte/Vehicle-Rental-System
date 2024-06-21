@@ -1,0 +1,81 @@
+.btn-1{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 23px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.btn-1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn-1:hover{
+    opacity: 0.7;
+}
+section{
+    border: 2px solid black;
+    margin: 10px 20px 20px ;
+}
+.tab1,th{
+    border:2px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 17px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.tab2,th{
+    border:2px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 17px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.btn-2{
+    width: 100px;
+    height: 30px;
+    background-color:lightgreen;
+    font-size: 15px;
+    border: 1px solid black;
+    opacity: 1;
+}
+.btn-2 a{
+    text-decoration: none;
+    color: black;
+}
+.btn-2:hover{
+    opacity: 0.7;
+}
+.btn-3{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.btn-3 a{
+    text-decoration: none;
+    color: black;
+}
+.btn-3:hover{
+    opacity: 0.7;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+.containor{
+    background-color: antiquewhite;
+}
+section{
+    background-color: white;
+}
+body{
+    background-color: antiquewhite;
+}

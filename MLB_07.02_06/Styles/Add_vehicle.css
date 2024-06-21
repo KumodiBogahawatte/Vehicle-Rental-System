@@ -1,0 +1,76 @@
+/*Using image as a background eith required size*/
+body{
+	background-image:url("../Images/Add vehicle background.jpg");	
+	background-size: 100% 85%;
+}
+
+
+h3{
+	text-align:center;
+	font-size : 70px;
+	
+
+}
+/* Style the form area*/
+/*Referred from Labsheet   */
+form{
+	width:  800px;
+	margin : auto;
+	padding: 15px;
+	font-size: 16px;
+	font-family: verdana;
+	color:white;
+	background-color:rgb(0,0,0,0.6);
+	border-radius:8px;
+}
+
+.category{
+	position:relative;
+	left:55px;
+	border-radius:4px;
+	height:30px;
+	
+}
+
+.Model{
+	position:relative;
+	left:160px;
+	border-radius:8px;
+	line-height:30px;
+}
+.vehno{
+	position:relative;
+	left:0px;
+	border-radius:8px;
+	line-height:30px;
+}
+
+.description{
+	position:relative;
+	left:285px;
+	top:-30px;
+	border-radius:8px;
+	line-height:30px;
+}
+
+.hour{
+	position:relative;
+	left:160px;
+	border-radius:8px;
+	line-height:30px;
+}
+
+.day{
+	position:relative;
+	left:170px;
+	border-radius:8px;
+	line-height:30px;
+}
+
+.image{
+	position:relative;
+	left:100px;
+	border-radius:8px;
+	line-height:80px;
+	
+}

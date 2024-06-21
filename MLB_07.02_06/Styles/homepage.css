@@ -1,0 +1,82 @@
+
+/*Home Page body*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body-containor{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.title-row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.title-col{
+    flex-basis: 50%;
+
+}
+
+.title-col h1{
+    color: white;
+    font-style: italic;
+    font-size: 100px;
+    margin-left: 25px;
+}
+
+.title-col p{
+    color:white;
+    font-size: 20px;
+    line-height: 15px;
+    margin-left: 25px;
+}
+
+.title-col button{
+    
+    width: 180px;
+    color: black;
+    font-size:20px;
+    padding: 12px 0;
+    background: white;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 25px; 
+    opacity: 1;
+    transition: 0.3s;
+}
+.title-col button:hover{
+    opacity: 0.6;
+}
+
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card h5{
+    font-size: 30px;
+}
+
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+

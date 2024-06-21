@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+.title{
+    font-size: 35px;
+}
+.p-containor{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    min-height: 100vh;
+    padding-bottom: 70px;
+    background-color: aliceblue;
+    
+}
+.p-containor form{
+    padding: 25px;
+    width: 100%;
+    height:auto;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(140, 140, 231, 0.1);
+}
+.p-containor form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.p-containor form .row .col .inputBox{
+    margin: 25px 0;
+    font-size: 50px;
+    color: gray;
+    text-align: start;
+}
+.inputBox span{
+    margin-bottom: 10px;
+    display: block;
+    font-size: larger;
+}
+.inputBox input{
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 8px 0;
+    font-size: 15px;
+    text-transform: none;
+    line-height: normal;
+    background-color: white;
+}
+.p-containor form .row .col .inputBox input:focus{
+    border: 5px solid black;
+}
+button i{
+    font-size: 40px;
+}
+#paybtn{
+    width: 150px;
+    height: 50px;
+    background-color:rgb(47, 224, 47);
+    font-size:25px;
+    color: black;
+    border:2px solid black;
+    cursor: pointer;
+    margin-left: 80%;
+}
+textarea{
+    width:100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-size: 25px;
+}
+
+

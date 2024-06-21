@@ -1,0 +1,67 @@
+
+body{
+    background-image:url("../Images/feedback.jpg");
+    background-size:cover;
+    
+   
+}
+.container{
+    width: 360px;
+    color: #c0c0c0;
+    align-items: center;
+} 
+
+.container form{
+    width:100%;
+    text-align: center;
+    padding: 25px 20px;
+    box-shadow:0 0 8px rgba(250,250,250,0.6);
+    background-color:#981dc9;
+} 
+
+
+form h1{
+    padding: 10px 0px;
+}
+
+form .id{ 
+    position: relative;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    margin: 4px 0;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    padding: 0 15px;
+    font-size: 20px; 
+}
+
+form textarea{
+    width: 100%;
+    margin: 4px 0;
+    padding: 5px 15px;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    font-size: 22px;
+}
+
+form button{
+    margin-top: 5px;
+    border: none;
+    background: #303031;
+    color: #fff;
+    padding: 10px 0;
+    width:100%;
+    font-size: 20px;
+    border-radius:3px;
+}
+
+
+
+
+
+
+
+
+

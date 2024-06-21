@@ -1,0 +1,39 @@
+
+body{
+	
+	background-color:  #165a72;
+	color: white; /*Font color*/
+}
+
+.profile_top{
+	
+	padding: 120px;
+	background-image: url("../Images/v_owner background.jpg");
+	background-size: cover;
+	opacity: 0.4;
+	text-align: left;
+}
+
+p{
+	font-size : 40px;
+}
+
+
+/*Setting table color and boarder*/	
+th, td {
+	border: 1px solid white;
+	background-color: #96D4D4;
+}	
+	
+/*Adding CSS to buttons*/
+.addmore{
+	
+	background-color: #00FAFF;
+	padding: 10px;
+	border-radius:6px;
+}
+/*select elements when you mouse over them*/
+.addmore:hover{
+	
+	box-shadow:  0 0 50px #00FAFF; /*display shadow box when mouse is over it*/
+}

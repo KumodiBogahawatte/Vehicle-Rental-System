@@ -1,0 +1,183 @@
+/*navbar*/
+
+.navbar{
+    overflow: hidden;
+    float: right;
+    bottom: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropbtn{
+    color: white;
+}
+ /*service button*/
+
+.servicebtn{
+    float: left;
+    overflow: hidden;
+}
+.servicebtn .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color:white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.servicebutton-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 8px 16px rgba(0,0);
+    z-index: 1;
+}
+.navbar a:hover, .servicebtn:hover .servicebtn {
+    background-color:whitesmoke;
+}
+.servicebutton-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.servicebutton-content a:hover {
+    background-color: #ddd;
+}
+.servicebtn:hover .servicebutton-content{
+    display: block;
+}
+
+/*profiles button*/
+
+.profilesbtn{
+    float: left;
+    overflow: hidden;
+}
+.profilesbtn .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color:white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.profilesbutton-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 8px 16px rgba(0,0);
+    z-index: 1;
+}
+.navbar a:hover, .profilesbtn:hover .profilesbtn {
+    background-color:whitesmoke;
+}
+.profilesbutton-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.profilesbutton-content a:hover {
+    background-color:#ddd;
+}
+.profilesbtn:hover .profilesbutton-content {
+    display: block;
+}
+
+/*about us button*/
+
+.aboutusbtn{
+    float: left;
+    overflow: hidden;
+}
+.aboutusbtn .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color:white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.aboutusbutton-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 8px 16px rgba(0,0);
+    z-index: 1000;
+    list-style: none;
+}
+.navbar a:hover, .aboutusbtn:hover .aboutusbtn {
+    background-color:whitesmoke;
+}
+.aboutusbutton-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.aboutusbutton-content a:hover {
+    background-color:whitesmoke;
+}
+.aboutusbtn:hover .aboutusbutton-content {
+    display: block;
+}
+
+/*Rent a vehicle button*/
+
+.rentbtn{
+    background-color:aquamarine;
+    size: 40%;
+    font-size: larger;
+    color:black;
+    opacity: 1;
+    transition: 0.3s;
+    padding: 16px 32px;
+    margin-left: 25px;
+    margin-top: 10px;
+    
+}
+.rentbtn:hover{
+    opacity: 0.6;
+}
+
+.topic p{
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.search-bar
+{
+    padding: 10px 15px;
+    font-size: large;
+    align-items: baseline;
+}
